@@ -19,6 +19,3 @@ def wifiConnection(ssid, pwd, s_time):
         print(sta_if.ifconfig())
         connected_time = float(time.time())
         print(float(connected_time - s_time))
-
-
-
